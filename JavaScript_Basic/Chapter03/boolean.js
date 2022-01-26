@@ -9,5 +9,5 @@ console.log('Codeit' === 'Codeeat');
 console.log(true && false);
 console.log(true && true);
 console.log(true || false);
-consolg.log(true || true);
+console.log(true || true);
 console.log(!true);
