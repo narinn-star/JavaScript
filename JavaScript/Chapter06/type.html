@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Type</title>
+</head>
+<body>
+  <p>Symbol : 코드 내에서 유일한 값을 가진 변수 이름을 만들 때 사용<br>
+    다른 어떤 값과 비교해도 true가 될 수 없는 고유한 변수가 됨<br>
+    Ex)&nbsp const user1 = Symbol('this is a user');<br>
+    &nbsp &nbsp &nbsp const user2 = Symbol('this is a user');<br>
+    &nbsp &nbsp &nbsp console.log(user1 === user2)  //false<br>
+  </p>
+  <p>BigInt : 아주 큰 정수를 표현하기 위한 데이터 타입</p>
+  <p>typeof 연산자 : 공백을 두고 작성해도 되고, 함수처럼 괄호로 감싸서 사용해도 됨<br>
+    typeof null;  // object<br>
+    typeof 함수명;  // function
+  </p>
+  <p>Boolean <br>
+    False로 평가되는 값 : false, null, undefined, NaN, 0, '' -> Falsy 값<br>
+    True로 평가되는 값 : 나머지 값들 -> Truthy 값 ([], {}도 True로 평가됨)</p>
+</body>
+</html>
