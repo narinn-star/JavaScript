@@ -6,7 +6,7 @@
 //   return 리턴값
 // }
 
-//함수 표현식
+//함수 표현식 //호이스팅 불가능함.
 const printCodeit = function(){
   console.log('Codeit');
 };
