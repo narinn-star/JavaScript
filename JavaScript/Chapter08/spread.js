@@ -41,7 +41,7 @@ const introduce = (name, birth, job) => {
   console.log(`저는 ${name}입니다.`);
   console.log(`${birth}년 생이고`);
   console.log(`직업은 ${job}입니다.`);
-  congols.log('잘 부탁드립니다 :)');
+  console.log('잘 부탁드립니다 :)');
 };
 
 const myArr = ['코드잇', 2017, '프로그래밍 강사'];
@@ -50,4 +50,4 @@ introduce(...myArr);
 // 배열을  펼쳐 객체로 만들면? _ 배열의 인덱스가 프로퍼티의 네임이 됨
 const members = ['태호', '종훈', '우재'];
 const newObject = {...members};
-consolg.log(newObject);
+console.log(newObject);
